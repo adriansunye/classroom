@@ -1,12 +1,11 @@
 import React from 'react';
 
 import PrivateRoute from '@components/routing/PrivateRoute/PrivateRoute';
-import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
   return (
     <PrivateRoute/>
   );
-}
-
+};
 export default App;
